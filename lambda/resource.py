@@ -67,6 +67,7 @@ def handler(event, context):
             target.update(
                 {
                     "Body": properties["Body"],
+                    "ACL" : 'public-read'
                 }
             )
 
